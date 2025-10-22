@@ -1,0 +1,86 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+
+# IDE settings
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Compiled files
+*.so
+*.dll
+*.exe
+*.obj
+*.o
+*.a
+
+# ==============================
+# FastAPI / SQLAlchemy / Env
+# ==============================
+# Environment files
+.env
+.env.*
+
+# SQLite database files
+*.db
+*.sqlite3
+
+# Alembic (if migrations are used)
+alembic.ini
+alembic/
+migrations/
+
+# Cache / temporary
+.cache/
+*.pid
+*.tmp
+*.bak
+
+# ==============================
+# Docker
+# ==============================
+# Docker artifacts
+Dockerfile~
+docker-compose.yml~
+.dockerignore
+*.tar
+
+# Docker volumes or local mounts
+volumes/
+data/
+db_data/
+
+# ==============================
+# Node / Frontend (if applicable)
+# ==============================
+node_modules/
+dist/
+build/
+*.lock
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+
+# Project specific
+server/__pycache__/
+server/tests/
