@@ -33,13 +33,12 @@ It leverages **static analysis**, **AI feedback**, and **live code testing** to 
 - **SQLAlchemy** – ORM for database modeling  
 - **SQLite** – Lightweight local database  
 - **Pylint** – Static analysis tool for Python code  
-- **dotenv** – Environment variable management  
 
 ### Frontend
 - **React + Vite** – Fast modern frontend framework  
 - **TailwindCSS** – Utility-first CSS styling  
 - **TypeScript** – Type-safe codebase  
-- **TanStack Query** – Efficient API data fetching  
+- **Monaco Editor** – Coding environment  
 
 ### AI Layer
 - **OpenAI Integration**  

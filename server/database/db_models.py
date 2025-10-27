@@ -1,6 +1,5 @@
 from sqlalchemy import String, Text, Boolean, Integer, ForeignKey
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from server.database.db import Base   # <— import Base from db.py
 
 from sqlalchemy import (
     create_engine,
